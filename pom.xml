@@ -112,7 +112,7 @@
                      </goals>
                      <configuration>
                          <target>
-                           <replace dir="${basedir}" value="SimpleVersionV1">
+                           <replace dir="${WORKSPACE}" value="SimpleVersionV1">
                              <include name="**/pom.xml"/>
                              <replacetoken>${version}</replacetoken>
                            </replace>
