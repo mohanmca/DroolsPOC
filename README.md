@@ -12,3 +12,6 @@
 
 ## How to execute TestApp without execution test-classes
 1. mvn compile test exec:java -DskipTests -Dlogback.debug -Dlog4j.debug
+
+## How to run ant plugins
+mvn compile -DWORKSPACE=.
